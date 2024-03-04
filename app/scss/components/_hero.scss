@@ -1,0 +1,37 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    max-width: 276px;
+    padding: 10px 0 10px 0;
+    border-radius: 7%;
+    box-shadow: 5px 5px 60px #80808099;
+  }
+
+  &__image {
+    width: 90%;
+    max-width: 250px;
+    border-radius: 7%;
+  }
+
+  &__text {
+  }
+
+  &__title {
+    text-align: center;
+    max-width: 25ch;
+  }
+
+  &__content {
+    text-align: center;
+    max-width: 31ch;
+  }
+}
